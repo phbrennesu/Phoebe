@@ -1,0 +1,25 @@
+<style>    
+h1 {
+font-family:  Helvetica, Arial, sans-serif;
+color: 74195B;
+padding: 20px;}
+
+    
+    
+    
+body {
+background-color: lightblue;}
+
+
+a:link, a:visited {
+    background-color: plum;
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:pink;
+  }
