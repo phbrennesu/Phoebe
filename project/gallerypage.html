@@ -4,54 +4,98 @@
         <title>All About Dogs</title>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <link rel="stylesheet" href="style.css">
-   
+   <!--
     <style>
-        img { width:20;}
-        nav {float: left;
-  width: 20%;
-  height: 80px; 
-  padding: 20px;
+      img { width:20;}
+        nav {
+  width: 100%;
+  height: 100px; 
+  padding: 50px;
 }
 
-    </style>
+</style>
+-->
         </head>
     <body>
-           
-    <h1 style="text-align:center;">Photo Gallery</h1>
+            <div class="page-container">
+      <header>    
+            <h1 style="text-align:center;"><i class='fas fa-dog' style='font-size:50px'></i>All About Dogs <i class='fas fa-dog' style='font-size:50px'></i></h1>
+      </header>
     <nav>     
-            <div id="page-container">
-                       <div id="navcolumn">
+        
                            <ul> 
                                 <li> <a href="homepage.html">Home </a> </li>
                                <li> <a href="contentpage.html">About</a> </li> 
-                        <li> <a href="gallerypage.html">Image</a></li>
+                        <li> <a class="active" href="gallerypage.html">Image</a></li>
                     </ul>
-                       </div>
-                   </div>
                 </nav>  
-<h2>Below is an image gallery of some wonderful pets! Purebred, hybrid or mutt all dogs are just as lovable!</h2>
- <img src="images/carla.jpg" alt="Carla" width="500">
+            
+<h2>Photo Gallery</h2>
+<h3>Below is an image gallery of some wonderful pets! Purebred, hybrid or mutt all dogs are just as lovable!</h3>
+
+  <section class="row">
+<article class="col">
+    <img src="images/carla.jpg" alt="Carla" width="500">
     <br><p>image via Carla Guariglia</p> 
+</article>
+<article class="col">
     <img src="images/couch.jpg" alt="KorionCouch" width="500">
     <br><p>image via Phoebe Brenner</p> 
+</article>
+  </section>
+
+  <section class="row">
+<article class="col">
     <img src="images/kitchen.jpg" alt="SimbaJersey" width="500">
     <br><p>image via Phoebe Brenner</p> 
+</article>
+<article class="col">
+    <img src="images/headshot.jpg" alt="Headshot" width="500">
+    <br><p>image via Phoebe Brenner</p> 
+</article>
+  </section>
+
+  <section class="row">
+<article class="col">
     <img src="images/outside.jpg" alt="Outside" width="500">
     <br><p>image via Phoebe Brenner</p> 
+</article>
+<article class="col">
     <img src="images/mik.jpg" alt="Carla" width="500">
     <br><p>image via Mikayla Oldenburg</p> 
+</article>
+</section>
+
+<section class="row">
+<article class="col">
 <img src="images/pugs.jpg" alt="Pugs" width="500">
     <br><p>image via Unsplash</p> 
-    
-   
-    
+</article>
+<article class="col">
+    <img src="images/2.jpg" alt="2dogsrunning" width="500">
+    <br><p>image via Unsplash</p>
+</article>
+</section>
+
+<footer>   
 <h2>Let's Connect!</h2>
-<a href="mailto:phoebebrenner28@gmail.com">Email</a>
- <a href="https://www.instagram.com/phoebebrenner/" target="_blank">Instagram</a>
-<a href="https://twitter.com/pbrenner28" target="_blank">Twitter</a>
-<a href="www.linkedin.com/in/phoebeb" target="_blank">LinkedIn</a>
-
-
+<a href="mailto:phoebebrenner28@gmail.com"><p>Contact Me</p></a>
+ <a href="https://www.instagram.com/phoebebrenner/" target="blank"><p>Instagram</p></a>
+<a href="https://twitter.com/pbrenner28" target="blank"><p>Twitter</p></a>
+<a href="www.linkedin.com/in/phoebeb" target="blank"><p>LinkedIn</p></a>
+<div class="subscriber-form-container">
+    <form>
+      <input type="email" placeholder="Email Address">
+      <input type="text" placeholder="Name">
+      <input type="submit" value="Subscribe">
+    </form>
+  </div>
+</footer>
+</div>
     </body>
 </html>
+
+
+
