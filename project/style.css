@@ -1,25 +1,199 @@
-<style>    
+   
 h1 {
 font-family:  Helvetica, Arial, sans-serif;
-color: 74195B;
-padding: 20px;}
-
-    
-    
-    
-body {
-background-color: lightblue;}
+padding: 20px;
+font-size: 50px;
+text-align: center;
+border-style: solid;
+text-shadow: #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0.27);}
 
 
-a:link, a:visited {
-    background-color: plum;
+header
+{
+  padding: 50px;
+  text-align: center; 
+  display: block;
+  background-color: lightblue; 
+}
+
+main 
+{text-align: center;}
+
+h2
+{font-family: Verdana, Geneva, sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-shadow: #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0.84);
+} 
+
+h3
+{ 
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-right: 80px;
+}
+
+p
+{ 
+font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;}
+
+    
+body {background-color: lightblue;}
+
+
+  footer {
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
     color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+  }
+
+  ol 
+  {font-weight: lighter;
+  }
+
+  .row {
+    display: flex;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex:1 ;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+  ul {
+    list-style-type: none;
+    width: 200px; 
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color: lightblue; 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
+  }
+  
+ nav li a {
+      padding: 20px 20px;
+    text-decoration: none;
+  }
+
+ nav a:link, a:visited {
+    background-color: palevioletred;
+    color:black;
     padding: 20px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
   
-  a:hover, a:active {
-    background-color:pink;
+ nav li a:hover:not(.active) {
+    background-color: lightblue;
+    color:black}
+
+
+ nav a:hover, a:active {
+    background-color:rgb(177, 186, 204); 
   }
+  
+   nav li a.active {
+    background-color: lightblue;
+    color: black;
+  }
+  
+ footer a:link, a:visited {
+  background-color: palevioletred;
+  color:black;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; }
+
+  footer li a:hover:not(.active) {
+    background-color: lightblue;
+    color:black}
+
+    footer a:hover, a:active {
+      background-color:rgb(177, 186, 204); 
+    }
+
+    footer li a.active {
+      background-color: lightblue;
+      color: black; }
+
+
+.subscriber-form-container {
+  max-width: 650px;
+  margin: 40px auto;
+  border: 1px dashed gray;
+  box-sizing: border-box;
+}
+.subscriber-form-container form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscriber-form-container form input {
+  margin: 6px;
+  padding: 0.4rem;
+  box-sizing: border-box;
+}
+.subscriber-form-container form input{
+  flex: 1 1 150px;
+}
+.subscriber-form-container form input[type="email"] {
+  flex: 2 1 300px;
+}
+
+#navcolumn
+{
+ display:flex;
+
+}
+
+nav ul 
+{display: flex;
+}
+
+nav ul li {
+  flex: 1;
+}
+
+nav
+ {
+  width: 35%;
+  height: 50px; 
+  padding: 0px;
+  margin: 0 auto;
+}
+
+
+.page-container
+{
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-right: 80px;
+  margin-left: 80px;
+ 
+}
