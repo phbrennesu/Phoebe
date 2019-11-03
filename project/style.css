@@ -1,4 +1,5 @@
    
+   
 h1 {
 font-family:  Helvetica, Arial, sans-serif;
 padding: 20px;
@@ -19,13 +20,17 @@ header
 main 
 {text-align: center;}
 
+
+
 h2
 {font-family: Verdana, Geneva, sans-serif;
 font-size: 30px;
 letter-spacing: 2px;
 word-spacing: 2px;
 text-align: center;
-text-shadow: #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0.84);
+padding: 20px;
+width: 300px;
+margin: 0 auto;
 } 
 
 h3
@@ -40,6 +45,13 @@ h3
 p
 { 
 font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center}
+
+h5
+{font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
     word-spacing: 2px;}
@@ -62,7 +74,9 @@ body {background-color: lightblue;}
 
   ol 
   {font-weight: lighter;
+    text-align: left;
   }
+
 
   .row {
     display: flex;
@@ -79,6 +93,29 @@ body {background-color: lightblue;}
     vertical-align: middle;
   }
 
+  .aside
+  {width: 250px;
+  border: 10px solid black;
+  padding: 40px;
+  margin: 7px;
+  }
+
+  .hybrids
+  {padding: 50px;
+  margin: 10px;
+  align-content: center}
+
+  
+main 
+{align-content: center;
+
+}
+
+.center 
+{display: block;
+margin-left:auto;
+margin-right: auto;
+width: 50%}
 
   ul {
     list-style-type: none;
@@ -111,16 +148,6 @@ body {background-color: lightblue;}
  nav li a:hover:not(.active) {
     background-color: lightblue;
     color:black}
-
-
- nav a:hover, a:active {
-    background-color:rgb(177, 186, 204); 
-  }
-  
-   nav li a.active {
-    background-color: lightblue;
-    color: black;
-  }
   
  footer a:link, a:visited {
   background-color: palevioletred;
@@ -130,9 +157,6 @@ body {background-color: lightblue;}
   text-decoration: none;
   display: inline-block; }
 
-  footer li a:hover:not(.active) {
-    background-color: lightblue;
-    color:black}
 
     footer a:hover, a:active {
       background-color:rgb(177, 186, 204); 
@@ -187,7 +211,6 @@ nav
   margin: 0 auto;
 }
 
-
 .page-container
 {
   margin: 0 auto;
@@ -197,3 +220,6 @@ nav
   margin-left: 80px;
  
 }
+
+
+
