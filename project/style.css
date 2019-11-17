@@ -1,5 +1,4 @@
    
-   
 h1 {
 font-family:  Helvetica, Arial, sans-serif;
 padding: 20px;
@@ -18,7 +17,8 @@ header
 }
 
 main 
-{text-align: center;}
+{text-align: center;
+  border-style: solid;}
 
 
 
@@ -40,6 +40,8 @@ h3
   letter-spacing: 2px;
   word-spacing: 2px;
   padding-right: 80px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 p
@@ -74,7 +76,9 @@ body {background-color: lightblue;}
 
   ol 
   {font-weight: lighter;
-    text-align: left;
+   text-align: left;
+ 
+   
   }
 
 
@@ -106,10 +110,7 @@ body {background-color: lightblue;}
   align-content: center}
 
   
-main 
-{align-content: center;
 
-}
 
 .center 
 {display: block;
@@ -145,9 +146,7 @@ width: 50%}
     display: inline-block;
   }
   
- nav li a:hover:not(.active) {
-    background-color: lightblue;
-    color:black}
+
   
  footer a:link, a:visited {
   background-color: palevioletred;
@@ -220,6 +219,3 @@ nav
   margin-left: 80px;
  
 }
-
-
-
