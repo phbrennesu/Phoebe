@@ -62,7 +62,7 @@ h5
     word-spacing: 2px;}
 
     
-body {background-color: lightblue;}
+body {background-color:gray;}
 
 
   footer {
@@ -226,7 +226,8 @@ nav
 
 
 .col iframe
-{width: 100%}
+{width: 100%;}
+ 
 
 
 
